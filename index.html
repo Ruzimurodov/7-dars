@@ -4,10 +4,34 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.css">
   <link rel="stylesheet" href="./css/main.css">
-  <title>Template Repo</title>
+  <title>7-dars</title>
 </head>
 <body>
 
+  <div class="container">
+    <form class="form" method="post" autocomplete="off">
+    
+      <input class="form__input form-control" type="number" min="0" name="amount_of_money" aria-label="Enter the amount of money
+      enter the amount of money">
+    
+      <select class="form__select form-select" name="currency_exchange">
+        <option value="10869.6">UZS</option>
+        <option value="0.881">EURO</option>
+        <option value="80.45">RUB</option>
+      </select>
+
+      <button class="form__button btn btn-info" type="submit">
+        Convert
+      </button>
+
+      <span class="form__result"></span>
+  </form>
+  </div>
+
+
+
+  <script src="./js/main.js"></script>
 </body>
 </html>

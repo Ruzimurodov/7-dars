@@ -1,0 +1,25 @@
+body {
+    background-color: aliceblue;
+}
+
+.form {
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.form__input, .form__select, .form__button, .form__result {
+    width: 30%;
+}
+
+.form__result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border: 2px solid #67aac5;
+    border-radius: 5px;
+}
